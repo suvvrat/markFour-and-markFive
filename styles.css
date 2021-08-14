@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+:root{
+    --primary-color:     #B91C1C;
+    --off-white:         #F3F4F6;
+    --dark-gray:         #6B7280;
+}
+
+
+/* navigation */
+    .navigation{
+        background-color: var(--primary-color);
+        color:white;
+        padding: 1rem 1rem;
+        border-radius:1rem;
+    }
+
+    .navigation .nav-brand{
+        font-weight:bold;
+    }
+
+    .navigation .nav-pills{
+        text-align:right;
+    }
+
+/* navigation links */
+    .link {
+        text-decoration:none;
+        padding: 0.5rem 0.5rem;
+        color: white;
+    }
+
+    .link-active{
+        font-weight:bold;
+    }
+
+    .link-primary{
+        background-color:var(--primary-color);
+        border-radius:0.5rem;
+        color:white;
+        
+    }
+
+    .link-secondary{
+        text-decoration:none;
+        color:var(--primary-color);
+        border-radius:0.5rem;
+        border:2px solid var(--primary-color);
+        font-weight:bold;
+    }
+
+/* lists */
+
+    .list-item-inline{
+        display:inline;
+        padding: 0rem 0.5rem;
+    }
+    .list-non-bullet{
+        list-style:none;
+    }
+
+    /* header */
+    .hero{
+        padding:1rem;
+        padding-top:2rem;
+        max-width: 600px;
+        margin:auto;
+    }
+
+    .hero .hero-img{
+        max-width:250px;
+        display:block;
+        margin:auto;
+    }
+
+    .hero .hero-heading{
+        text-align:center;
+        padding-top:1rem;
+        color:var(--dark-gray);
+    }
+
+/* container */
+    .container{
+        padding: 1rem 1rem;
+        max-width:600px;
+        margin:auto;
+    }
+
+    .section{
+        padding:0.5rem;
+    }
+
+    .section h1{
+        text-align:center;
+    }
+
+    .ow{
+        background-color:var(--off-white);
+    }
+
+/* footer  */
+.footer{
+    background-color:var(--primary-color);
+    padding:2rem 1rem;
+    text-align:center;
+    color:white;
+    border-radius:1rem;
+}
+
